@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<!-- #BeginEditable "doctitle" -->
+<title>Backyard Birds Home Page</title>
+
+<!-- #EndEditable -->
+
+<link href="mystyles.css" rel="stylesheet" type="text/css">
+
+<link href="print.css" rel="stylesheet" type="text/css" media="print">
+
+<script type="text/javascript" src="myscripts.js"></script>
+
+
+
+
+</head>
+<body  onload="preloadImages()">
+
+<header>
+
+	<a href="index.htm" onMouseOver="document.logo.src=logo2.src;" class="logoleft"
+	onMouseOut="document.logo.src=logo1.src;">
+
+	<img src="images/logo1.png" width="150" height="175" 
+	name="logo" alt="logo" style="border:solid thick #808080;"/>
+
+	</a>
+	
+	<img alt="Banner" height="175" src="images/banner.png" width="505" style="border: solid thick #808080;">
+	
+</header>
+
+<section>
+
+	<nav>
+	
+		<a href="home.htm">Home</a><br>
+		<a href="aboutus.htm">About Us</a><br>
+		<a href="tributes.htm">Tributes</a><br>
+		<a href="favorites.htm">Favorites</a><br>
+		<a href="surveypage.htm">Survey Page</a></nav>
+	
+	<!-- #BeginEditable "article" -->
+	
+	<article>
+	
+		<h2> Welcome to Backyard Birds of Utah! </h2>
+		<h4>Welcome to Backyard Birds!</h4>
+		<p>
+		If you love birdwatching like we do, you should enjoy looking around 
+		this site. Take a look at our Bird Profiles and take the opportunity to 
+		complete our survey.</p>
+		
+		
+		<div id="thumbs">
+		<img src="Images/Thumbnails/Image1Sm.jpg" alt="Robin" onmouseover="swapImage(0);" />
+		<img src="Images/Thumbnails/Image2Sm.jpg" alt="Owl" onmouseover="swapImage(1);" />
+		<img src="Images/Thumbnails/Image3Sm.jpg" alt="Hawk" onmouseover="swapImage(2);" />
+		<img src="Images/Thumbnails/Image4Sm.jpg" alt="Swan" onmouseover="swapImage(3);" />
+		
+</div>
+
+	<div id="image">
+	
+			<img id="theImage" src="Images/FullSize/Image1Lg.jpg" alt="Birds" />
+		<h3 id="bottomText">Robin</h3>
+	</div>
+	
+	<br />
+	
+	<img alt="HawkSm (55K)" src="Images/HawkSm.jpg" class="right" height="100" width="150" />
+	<h3>What our customers have been saying...</h3>
+	<blockquote>I thought we had some exotic bird varieties in Florida,
+	 but they are nothing compared to the gorgeous variteies found in Utah.
+	  My son liked the really big birds like the owls and eagles... <br />
+	<a href="tributes.htm">More...</a></blockquote>
+	
+	</article>
+
+<!-- #EndEditable -->
+
+</section>
+
+<footer>
+
+<h5>&nbsp;This web site has been created solely for educational purposes.</h5>
+	<h5><a href="mailto:%20anissa.buffington@ucas-edu.net">anissa.buffington@ucas-edu.net</a></h5>
+
+</footer>
+
+</body>
+</html>

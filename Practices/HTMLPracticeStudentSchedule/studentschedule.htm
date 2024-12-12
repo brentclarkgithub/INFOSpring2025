@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Student Schedule</title>
+
+<style>
+
+.center { text-align: center;
+					margin: 0 auto;
+					width: 550px;
+			}
+
+table, td, th  { border: 3px solid darkgray;
+			 		 		 	 border-collapse: separate;
+			 		 		 	 border-spacing: 5px;
+								 padding: 4px;
+								 text-align: center;
+							}
+caption  { font-weight: bold;
+				 	 font-family: cabin, helvetica, sans-serif;
+					 text-align: center;
+					 font-size: 20px;
+					 color: #660000;
+					 border: 3px solid darkgray;
+				}
+ 
+.courses  { background-color: #CCCCCC;
+						width: 25%;
+				}
+				
+th.days  { background-color: #ffcccc;
+				 	 width: 15%;
+				}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="center">
+
+<table>
+
+<caption>My Class Schedule</caption>
+
+<colgroup class="courses"></colgroup>
+<colgroup class="days" span="5"></colgroup>
+
+<tr>
+<th class="days">Courses</th>
+<th class="days">Monday</th>
+<th class="days">Tuesday</th>
+<th class="days">Wednesday</th>
+<th class="days">Thursday</th>
+<th class="days">Friday</th>
+</tr>
+
+<tr>
+<th>English</th>
+<td colspan="5">9-9:55</td>
+</tr>
+
+<tr>
+<th>Speech</th>
+<td colspan="5">10-10:55</td>
+</tr>
+
+<tr>
+<th>Seminary</th>
+<td colspan="5">11-11:55</td>
+</tr>
+
+<tr>
+<th>Lunch</th>
+<td colspan="5">12-12:25</td>
+</tr>
+
+<tr>
+<th>Advisory - Biology</th>
+<td colspan="5">12:30-12:55</td>
+</tr>
+
+<tr>
+<th>Web Design</th>
+<td colspan="5">1-1:55</td>
+</tr>
+
+<tr>
+<th>Biology 1610</th>
+<td colspan="5">2-2:55</td>
+</tr>
+
+<tr>
+<th>Math</th>
+<td colspan="5">3-3:55</td>
+</tr>
+
+</table>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,18 @@
+﻿.center {
+	margin: 30px;
+	text-align: center;
+}
+h1 {
+	text-align: center;
+	font-family: "Kristen ITC";
+	color: #000000;
+	text-decoration: none;
+}
+body {
+	text-decoration: none;
+	background-color: #CCFFFF;
+}
+hr {
+	background-color: #800000;
+	height: 4px;
+}

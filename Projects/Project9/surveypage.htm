@@ -1,0 +1,219 @@
+﻿<!DOCTYPE html>
+<html>
+<!-- #BeginTemplate "birds.dwt" -->
+<head>
+<meta charset="UTF-8">
+<!-- #BeginEditable "doctitle" -->
+<title>Survey Page Backyard Birds</title>
+
+<!-- #EndEditable -->
+
+<link href="mystyles.css" rel="stylesheet" type="text/css">
+
+<link href="print.css" rel="stylesheet" type="text/css" media="print">
+
+<script type="text/javascript" src="myscripts.js"></script>
+
+
+
+
+</head>
+<body  onload="preloadImages()">
+
+<header>
+
+	<a href="index.htm" onMouseOver="document.logo.src=logo2.src;" class="logoleft"
+	onMouseOut="document.logo.src=logo1.src;">
+
+	<img src="images/logo1.png" width="150" height="175" 
+	name="logo" alt="logo" style="border:solid thick #808080;"/>
+
+	</a>
+	
+	<img alt="Banner" height="175" src="images/banner.png" width="505" style="border: solid thick #808080;">
+	
+</header>
+
+<section>
+
+	<nav>
+	
+		<a href="home.htm">Home</a><br>
+		<a href="aboutus.htm">About Us</a><br>
+		<a href="tributes.htm">Tributes</a><br>
+		<a href="favorites.htm">Favorites</a><br>
+		<a href="surveypage.htm">Survey Page</a></nav>
+	
+	<!-- #BeginEditable "article" -->
+	
+	<article>
+	
+	<form method="post" action="FormToEmail.php" name="BackyardBirds" target="_blank">
+	
+	<fieldset id="CustomerInfo"name="Group1">
+				<legend>Customer Information</legend>
+				
+				<ul>
+					<li>
+						<label id="FNameLBL" for="FNameTXT">First Name</label>
+						<input name="FName" type="text" id="FNameTXT" size="30" tabindex="1" />
+					</li>
+					<br />
+					<li>
+						<label id="LNameLBL" for="LNameTXT">Last Name</label>
+						<input name="LName" type="text" id="LNameTXT" size="30" tabindex="2" />
+					</li>
+					<br/>
+					<li>
+						<label id="EmailLBL" for="EmailTXT">Email</label>
+						<input name="Email" type="text" id="EmailTXT" size="30" tabindex="3" />
+					</li>
+					<br />
+					<li>
+					<label id="AgeLBL" for="AgeDDB">Age</label>
+					<select name="Age" id="AgeDDB" size="1" tabindex="4">
+					
+					<option value="Under20">Under 20</option>
+					<option value="20 - 40">20 - 40</option>
+					<option value="40 and Up">40 and Up</option>
+			</select>
+					</li>
+				</ul>
+				
+			</fieldset>
+			<br />
+			<fieldset id="YearsSpent">
+				<legend>Years Spent Bird Watching</legend>
+				<br />
+				<ul>
+					<li>
+						<label id="YearsSpent">Years Spent Bird Watching</label>
+						<select id="YearsSpent" name="Years Spent Bird Watching" size="1" tabindex="5">
+				<option selected="selected" value="1 - 5">1 - 5 yrs</option>
+						<option value="5 - 10">5 - 10 yrs</option>
+						<option value="10 - 15">10 - 15 yrs</option>
+						<option value="15 - 20">15 - 20 yrs</option>
+						<option value="20 - 25">20 - 25 yrs</option>
+						<option 25+>25+ yrs</option>
+			</select>
+	
+					</li>
+				
+				
+				</ul>
+			</fieldset>
+				<br />
+				<fieldset id="Calendar">
+				<legend>Have you ordered a calendar from Bart Jones?</legend>
+				<ul>
+				
+					<li id="YesCB">
+						<label id="Yes">Yes</label>
+						<input type="radio" name="Calendar" type="checkbox" id="YesCB" tabindex="6" />
+					</li>
+					<li id="NoCB">
+					<label id="No">No</label>
+					<input type="radio" name="Calendar" type="checkbox" id="NoCB" tabindex="7" />
+					</li>
+				
+				</ul>
+				
+				<br />
+			
+				<legend>If you answered yes to the previous question</legend>
+					
+				<br />
+					
+			<fieldset name="Group1">
+				<legend>On a scale of 
+				1-5, how would you rate it?
+				</legend>
+					<ul>
+					
+						<li id="Scale">
+						<label id="Scale">1</label>
+						<input type="radio" name="Scale" id="Scale" tabindex="8" />						
+						</li>
+						
+						<li id="Scale">
+						<label id="Scale">2</label>
+						<input type="radio" name="Scale" id="Scale" tabindex="9" />						
+						</li>
+
+
+						<li id="Scale">
+						<label id="Scale">3</label>
+						<input type="radio" name="Scale" id="Scale" tabindex="10" />						
+						</li>
+
+
+						<li id="Scale">
+						<label id="Scale">4</label>
+						<input type="radio" name="Scale" id="Scale" tabindex="11" />						
+						</li>
+
+
+						<li id="Scale">
+						<label id="Scale">5</label>
+						<input type="radio" name="Scale" id="Scale" tabindex="12" />						
+						</li>
+					
+					</ul>
+			</fieldset>
+			</fieldset>
+			
+			<br />
+			
+			<fieldset name="Group1">
+				
+					<legend>Was this site helpful at better informing you about Backyard Birds?</legend>
+					
+					<ul>
+					<li id="helpful">
+					<label id="helpful">Yes</label>
+					<input name="helpful" type="radio" tabindex="13" id="helpful" />
+					</li>
+					
+					<li id="helpful">
+					 <label id="helpful">No</label>
+					<input name="helpful" type="radio" id="helpful" tabindex="14" />
+					</li>
+				</ul>
+			</fieldset>
+			
+			<br />
+			
+			<fieldset name="Group1">
+				<legend>Is there any other information that you would like us to know?</legend>
+				<br />
+				<textarea name="TextArea1" cols="30" rows="4" tabindex="15"></textarea>
+			</fieldset>
+			
+	<br />
+	
+	<input name="Submit1" type="Submit" value="Submit" tabindex="16" width="16px" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		
+	<input name="Reset1" type="Reset" value="Reset" tabindex="17" width="16px"/>
+	
+	<br />
+	
+	</form>
+	
+	<br />
+			
+	</article>
+
+<!-- #EndEditable -->
+
+</section>
+
+<footer>
+
+<h5>&nbsp;This web site has been created solely for educational purposes.</h5>
+	<h5><a href="mailto:%20anissa.buffington@ucas-edu.net">anissa.buffington@ucas-edu.net</a></h5>
+
+</footer>
+
+</body>
+<!-- #EndTemplate -->
+</html>

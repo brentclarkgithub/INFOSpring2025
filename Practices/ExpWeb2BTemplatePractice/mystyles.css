@@ -1,0 +1,77 @@
+body {
+	margin: 0px;
+	background-image: url('Images/background.gif');
+}
+
+h2{
+	
+	color:navy;
+}
+
+#container {
+	margin: 0px auto 0px auto;
+	width: 760px;
+	border: medium dashed #000080;
+}
+#masthead {
+	width: 760px;
+	height: 150px;
+	background-color: #CCCCCC;
+	text-align: center;
+	padding-top: 10px;
+	border-bottom-style: dashed;
+	border-bottom-width: medium;
+	border-bottom-color: #000080;
+}
+
+#maincontent {
+	width: 760px;
+	background-image: url('Images/inner_background.gif');
+	background-repeat: repeat-y;
+	overflow: hidden;
+}
+#leftcolumn {
+	padding-left: 10px;
+	float: left;
+	width: 110px;
+}
+#rightcolumn {
+	float: left;
+	width: 600px;
+	padding: 5px;
+	text-align: center;
+}
+#footer {
+	text-align: center;
+	width: 760px;
+	height: 70px;
+	border-top-style: dashed;
+	background-color: #CCCCCC;
+	border-top-width: medium;
+	border-top-color: #000080;
+}
+.clearme {
+	clear: both;
+}
+.logoleft {
+	float: left;
+	padding-top: 30px;
+	padding-left: 15px;
+}
+.validationleft {
+	float: left;
+	padding-top: 5px;
+	padding-left: 10px;
+}
+#leftcolumn a {
+	border: 2px inset #CCCCCC;
+	background-color: #800000;
+	line-height: 250%;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 17px;
+}
+#leftcolumn a:hover {
+	color: #FFFF00;
+	border: 2px outset #CCCCCC;
+}
