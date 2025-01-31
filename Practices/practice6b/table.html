@@ -1,0 +1,98 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>HTML Practice 6B - Tables</title>
+
+<style>
+.center{
+	text-align: center;
+}
+table {
+	width: 90%;
+	margin: 0 auto;
+}
+table, th, td {
+	border: 3px solid black;
+	border-collapse: separate;
+	border-spacing: 10px;
+	padding: 8px;
+	border-radius: 10px;
+	font-family: monospace, sans-serif;
+}
+caption {
+	font-family: Organo, sans-serif;
+	color:#544E61;
+	font-weight: bold;
+	background-color:#85BAA1;
+	border-radius: 10px;
+	border: 2px solid #544E61;
+	height: 40px;
+	text-align: center;
+	font-size: 40px;
+}
+.courses{
+	background-color:#85BAA1;
+	width: 25%;
+}
+td.days {
+	background-color:#CEEDDB;
+	width: 15%;
+}
+td {
+	color:black;
+	background-color:#DFECE5;
+	font-size: 20px;
+}
+th{
+	border: 3px solid #6E8894;
+	padding:5px;
+	border-radius: 5px;
+	font-size: 20px;
+}
+@font-face{
+	font-family:'Organo';
+	src: url('../../fonts/Organo.eot'); 
+	src: local('Organo'), url('../../fonts/Organo.ttf') format('truetype') ;
+}
+
+</style>
+</head>
+<body>
+<div class="center">
+   <table >
+   <caption>My Class Schedule</caption>
+   <colgroup class="courses"></colgroup>
+   <colgroup class="days"></colgroup>
+		<tr>
+			<th>Courses</th>
+			<td class="days">Monday</td>
+			<td class="days">Tuesday</td>
+			<td class="days">Wednesday</td>
+			<td class="days">Thursday</td>
+			<td class="days">Friday</td>
+		</tr>
+		<tr>
+			<th>Info 1120</th>
+			<td>&nbsp;</td>
+			<td>9 - 11</td>
+			<td>&nbsp;</td>
+			<td>9 - 11</td>
+			<td rowspan="2">&nbsp;</td>
+		</tr>
+		<tr>
+			<th>Math SM3</th>
+			<td colspan="4">12-1</td>
+		</tr>
+		<tr>
+			<th>Info 2420</th>
+			<td colspan="5">Online Available 24/7</td>
+		</tr>
+   </table>
+</div>
+
+
+
+</body>
+</html>
+
