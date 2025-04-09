@@ -28,7 +28,7 @@ if (document.images) {
 			
 		);
 			
-		var imgPath = "images/fullsize";
+		var imgPath = "images/fullsize/";
 		
 		function swapImage(imgID) {
 
