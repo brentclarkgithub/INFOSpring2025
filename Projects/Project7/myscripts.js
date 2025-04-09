@@ -11,7 +11,7 @@ if (document.images) {
 
 
 		var imgArray = new Array(
-			'Image1Lg.jpg',
+			'Image1lg.jpg',
 			'Image2Lg.jpg',
 			'Image3Lg.jpg',
 			'Image4Lg.jpg'
